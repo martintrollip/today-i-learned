@@ -8,4 +8,5 @@ The Android emulator runs behind a virtual firewall/router.  So the emulator can
 
 Further reading:
 [Android Emulator networking](https://developer.android.com/studio/run/emulator-networking) 
+
 [How to access localhost](https://stackoverflow.com/questions/5528850/how-do-you-connect-localhost-in-the-android-emulator)
