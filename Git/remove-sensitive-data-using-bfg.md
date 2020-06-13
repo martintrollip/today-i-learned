@@ -12,10 +12,11 @@ Steps:
 1. Clone your repo using `--mirror`  `$ git clone --mirror git://example.com/some-big-repo.git`
 2. Create a file `passwords.txt` and include all of the passwords which has been committed. 
 3. Run `$ bfg --replace-text passwords.txt some-big-repo.git`.  This will replace each of the passwords on the history with `**REMOVED**`. 
-4. Read the output.  It will indicate if everything succeeded and if you need to do any manual deletions. 
+4. Read the output carefully.  It will indicate if everything succeeded and if you need to do any manual deletions. 
 5. `$ cd some-big-repo.git`
 6. `$ git reflog expire --expire=now --all && git gc --prune=now --aggressive`
 7. `$ git push`
+8. Clone a fresh copy of your repo and use this going forward. Let all other colleagues use a fresh clone to prevent accidentally comitting the bad history back in. 
 
 [Removing sensitive data from a repository](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
 
