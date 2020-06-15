@@ -18,6 +18,8 @@ Steps:
 7. `$ git push`
 8. Clone a fresh copy of your repo and use this going forward. Let all other colleagues use a fresh clone to prevent accidentally comitting the bad history back in. 
 
+**Note:** If this is a public repository, assume the data is compromised and update any passwords immediately. 
+
 [Removing sensitive data from a repository](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
 
 [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
