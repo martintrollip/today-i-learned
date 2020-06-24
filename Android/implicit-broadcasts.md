@@ -14,4 +14,10 @@ Some implicit broadcasts has also been removed
 API 29: NETWORK_STATE_CHANGED_ACTION
 API 24: ACTION_NEW_PICTURE and ACTION_NEW_VIDEO
 
+These restrictions does not apply to explicit broadcasts, those aimed at a specific app. 
+
 [Broadcasts overview](https://developer.android.com/guide/components/broadcasts)
+
+[BroadcastReceiver Tutorial Part 4 - EXPLICIT BROADCASTS - Android Studio Tutorial](https://www.youtube.com/watch?v=a8DaHJLHBfI)
+
+[Android O and the Implicit Broadcast Ban](https://commonsware.com/blog/2017/04/11/android-o-implicit-broadcast-ban.html)
