@@ -10,3 +10,4 @@
 5. (optional) if you need 3rd party tools to work such as an IDE run `git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe`
 
 [Why git can't remember my passphrase under Windows](https://stackoverflow.com/a/58784438/1859777)
+[Setup for password protected Git SSH keys for VS Code on Windows](https://gist.github.com/Lancear/4b884d55d62bbfb3e42b16058bb48edd)
